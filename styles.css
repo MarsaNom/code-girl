@@ -1,0 +1,20 @@
+
+.carousel {
+    width:1000px;
+    
+  }
+
+.caption { 
+    margin-top: -260px;
+    display: block;
+    position: static;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
