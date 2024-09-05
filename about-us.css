@@ -1,0 +1,73 @@
+body{
+    background-color:#fdf2ed;
+    color: #A66041;
+}
+h1{
+    padding-top: 2%;
+    text-align: center;
+    padding-bottom: 1%;
+    font-family: myFirstFont;
+    font-size: 55px ;
+}
+h5{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    
+}
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color:#A66041 ;
+    color:#fdf2ed;
+    transform: rotateY(180deg);
+    
+  }
+  .flip-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 100%;
+  }
+  @font-face{
+    font-family: myFirstFont;
+    src:url(/fonts/Uni_Sans_Heavy.otf);
+  }
+  .nav-item1 {
+    padding-left: 600%;
+
+}

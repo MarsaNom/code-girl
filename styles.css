@@ -10,16 +10,15 @@
 }
 
 .carousel .carousel-item img{
-    max-height: 600px;
-    min-width: auto;
+    max-height: 700px;
+    min-width: 1200px;
 }
 
 .header-container {
     display: flex;
     justify-content: center;
     background-color: #fdf2ed;
-    padding-top: 20px;
-    padding-bottom: 20px;
+
 }
 
 .about-us{
@@ -36,6 +35,17 @@ body{
 }
 
 .nav-item1 {
-    padding-left: 530%;
+    padding-left: 600%;
 
+}
+
+@font-face{
+  font-family: myFirstFont;
+  src:url(/fonts/Uni_Sans_Heavy.otf);
+}
+h1{
+    font-family: myFirstFont;
+    font-size: 55px ;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }

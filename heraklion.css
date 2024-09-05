@@ -1,0 +1,20 @@
+
+body{
+    background-color:#fdf2ed;
+    color: #A66041;
+}
+h1{
+    padding-top: 2%;
+    text-align: center;
+    padding-bottom: 1%;
+    font-family: myFirstFont;
+    font-size: 55px ;
+}
+@font-face{
+    font-family: myFirstFont;
+    src:url(/fonts/Uni_Sans_Heavy.otf);
+  }
+  .nav-item1 {
+    padding-left: 600%;
+
+}
