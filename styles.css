@@ -1,8 +1,5 @@
 
-.navbar-custom {
-    background-color: rgb(129, 230, 129);
 
-}
 
 
 .carousel-caption { 
@@ -20,7 +17,7 @@
 .header-container {
     display: flex;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: #fdf2ed;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -34,8 +31,8 @@ hr {
 }
 
 body{
-    background-color: rgba(245, 203, 148, 0.644);
-    color: rgb(129, 29, 29);
+    background-color:#fdf2ed;
+    color: #A66041;
 }
 
 .nav-item1 {
