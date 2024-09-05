@@ -1,14 +1,14 @@
 
-.carousel {
-    width:1000px;
-    
-  }
 
-.caption { 
-    margin-top: -260px;
-    display: block;
-    position: static;
-    padding: 0;
+.carousel-caption { 
+    position: absolute;
+    top: 50px;
+    left: -10px;
+}
+
+.carousel .carousel-item img{
+    max-height: 600px;
+    min-width: auto;
 }
 
 .header-container {
@@ -17,4 +17,17 @@
     background-color: antiquewhite;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.about-us{
+    padding-bottom: 20px;
+}
+
+hr {
+    border: 3px solid ;
+}
+
+body{
+    background-color: rgba(245, 203, 148, 0.644);
+    color: rgb(129, 29, 29);
 }
