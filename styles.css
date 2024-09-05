@@ -1,9 +1,15 @@
 
+.navbar-custom {
+    background-color: rgb(129, 230, 129);
+
+}
+
 
 .carousel-caption { 
-    position: absolute;
-    top: 50px;
-    left: -10px;
+    padding-left: 0%;
+    padding-right: 0%;
+    right: 80%;
+    top: 45%;
 }
 
 .carousel .carousel-item img{
@@ -30,4 +36,9 @@ hr {
 body{
     background-color: rgba(245, 203, 148, 0.644);
     color: rgb(129, 29, 29);
+}
+
+.nav-item1 {
+    padding-left: 530%;
+
 }
