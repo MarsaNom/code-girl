@@ -6,7 +6,7 @@ body{
 h1{
     padding-top: 2%;
     text-align: center;
-    padding-bottom: 1%;
+    padding-bottom: 15%;
     font-family: myFirstFont;
     font-size: 55px ;
 }
@@ -14,7 +14,26 @@ h1{
     font-family: myFirstFont;
     src:url(/fonts/Uni_Sans_Heavy.otf);
   }
-  .nav-item1 {
-    padding-left: 600%;
 
-}
+.site-footer  {
+    background-color:#c774517c;
+    padding: 25px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    margin-top: 55px;
+    text-align: right;
+    }
+    .container a {
+        color: #737373;
+        text-decoration: underline;
+    }
+    .container a:hover{
+        color: #fdf2ed;
+    }
+    .container_main{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: -100px;
+    }
