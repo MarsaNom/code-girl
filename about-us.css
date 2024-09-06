@@ -115,3 +115,14 @@ h5{
       color: #fdf2ed;
       background-color:#c774517c;
   }
+
+  .dropdown-item {
+    color: #fdf2ed;
+}
+
+a{
+  color: #a9755f;
+}
+a:hover{
+  color: #fdf2ed;
+}
