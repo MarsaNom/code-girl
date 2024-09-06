@@ -95,3 +95,8 @@ h5{
     .meet, .mentor h1{
         text-align: center;
     }
+
+    .navbar {
+      color: #fdf2ed;
+      background-color:#c774517c;
+  }
