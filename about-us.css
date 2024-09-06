@@ -106,8 +106,14 @@ h5{
     }
     .mentor {
         display: flex;
-        justify-content: center;
+        align-items: center;
         flex-direction: column;
+    }
+
+    .mentor img {
+      width: 300px;
+      height: 300px;
+  
     }
     
 
@@ -121,8 +127,8 @@ h5{
 }
 
 a{
-  color: #a9755f;
+    color: #a9755f;
 }
 a:hover{
-  color: #fdf2ed;
+    color: #fdf2ed;
 }
