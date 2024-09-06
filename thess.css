@@ -31,3 +31,8 @@ h1{
     .container a:hover{
         color: #fdf2ed;
     }
+
+    .navbar {
+        color: #fdf2ed;
+        background-color:#c774517c;
+    }

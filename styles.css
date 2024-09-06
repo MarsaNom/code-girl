@@ -3,10 +3,14 @@
 
 
 .carousel-caption { 
-    padding-left: 0%;
-    padding-right: 0%;
+    padding-left: 20px;
+    padding-right: 20px;
     right: 80%;
-    top: 45%;
+    top: 10%;
+    width: 400px;
+    height: auto ;
+    background-color: #00000052;
+    border-radius: 15%;
 }
 
 .carousel .carousel-item img{
@@ -25,7 +29,12 @@
     padding-bottom: 20px;
 }
 
-
+a{
+    color: #a9755f;
+}
+a:hover{
+    color: #fdf2ed;
+}
 
 body{
     background-color:#fdf2ed;
@@ -39,14 +48,16 @@ body{
 }
 
 
-.nav-item {
+.navbar {
     color: #fdf2ed;
+    background-color:#c774517c;
 }
 
 @font-face{
   font-family: myFirstFont;
   src:url(/fonts/Uni_Sans_Heavy.otf);
 }
+
 h1{
     font-family: myFirstFont;
     font-size: 55px ;
@@ -70,3 +81,11 @@ h1{
     .container a:hover{
         color: #fdf2ed;
     }
+
+.container-fluid {
+    color: #fdf2ed;
+}
+
+h4,h5{
+    color: #ffcab1
+}

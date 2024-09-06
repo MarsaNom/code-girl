@@ -37,3 +37,8 @@ h1{
         justify-content: flex-end;
         padding-right: -100px;
     }
+
+    .navbar {
+        color: #fdf2ed;
+        background-color:#c774517c;
+    }
