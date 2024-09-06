@@ -73,6 +73,15 @@ h5{
     font-family: myFirstFont;
     src:url(/fonts/Uni_Sans_Heavy.otf);
   }
+  @font-face {
+    font-family: mySecondFont;
+
+    src: url(/fonts/Uni\ Sans\ Thin.otf);}
+    
+    .container-fluid img{
+        width: 70px;
+        height: 70px;
+    }
 
 .site-footer  {
     background-color:#c774517c;
@@ -95,6 +104,12 @@ h5{
     .meet, .mentor h1{
         text-align: center;
     }
+    .mentor {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
 
     .navbar {
       color: #fdf2ed;

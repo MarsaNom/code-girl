@@ -1,6 +1,9 @@
 
 
-
+.container-fluid img{
+    width: 70px;
+    height: 70px;
+}
 
 .carousel-caption { 
     padding-left: 20px;
@@ -22,6 +25,7 @@
     display: flex;
     justify-content: center;
     background-color: #fdf2ed;
+    font-family: myFirstFamily;
 
 }
 
@@ -56,6 +60,12 @@ body{
 @font-face{
   font-family: myFirstFont;
   src:url(/fonts/Uni_Sans_Heavy.otf);
+
+}
+@font-face {
+    font-family: mySecondFont;
+
+    src: url(/fonts/Uni\ Sans\ Thin.otf);
 }
 
 h1{

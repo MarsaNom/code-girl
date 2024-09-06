@@ -17,6 +17,15 @@ h1{
     font-family: myFirstFont;
     src:url(/fonts/Uni_Sans_Heavy.otf);
   }
+  @font-face {
+    font-family: mySecondFont;
+
+    src: url(/fonts/Uni\ Sans\ Thin.otf);}
+
+    .container-fluid img{
+        width: 70px;
+        height: 70px;
+    }
 
 .site-footer  {
     width: 100%;
