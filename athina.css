@@ -60,9 +60,15 @@ h1{
         flex-direction: row;
         align-items: center;
         justify-content: left;
-        padding: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         
     }
+
+.eventContainer{
+    display: flex;
+    flex-direction: column;
+}
 
     #dateleft{
         margin-left: 50px;
@@ -101,4 +107,8 @@ h1{
     .navbar {
         color: #fdf2ed;
         background-color:#c774517c;
+    }
+
+    .dropdown-item {
+        color: #fdf2ed;
     }
