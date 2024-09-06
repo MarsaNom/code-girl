@@ -68,6 +68,8 @@ h1{
 .eventContainer{
     display: flex;
     flex-direction: column;
+    margin-top: 100px ;
+    margin-bottom: 100px;
 }
 
     #dateleft{
@@ -109,3 +111,12 @@ h1{
     .dropdown-item {
         color: #fdf2ed;
     }
+
+    
+a{
+    color: #a9755f;
+}
+a:hover{
+    color: #fdf2ed;
+}
+
